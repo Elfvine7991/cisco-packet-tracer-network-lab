@@ -16,7 +16,6 @@ This project is a Cisco Packet Tracer network lab that demonstrates VLAN segment
 - Port Security
 - EtherChannel / LACP
 - DNS Server
-- ACLs
 
 ## Topology
 
@@ -57,7 +56,6 @@ The lab includes:
 - DNS server configuration
 - SSH remote access
 - Port Security
-- Access Control Lists
 - Basic device hardening
 ## Verification Commands
 
@@ -72,6 +70,5 @@ show vlan brief
 show interfaces trunk
 show etherchannel summary
 show standby brief
-show access-lists
 show running-config
 ```
